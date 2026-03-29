@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>El Mundo del Anime</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #1e1e2f;
+            color: white;
+        }
+
+        header {
+            background-color: #ff4c4c;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .texto-grande {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>El Mundo del Anime</h1>
+        <p>Explorando historias, personajes y cultura japonesa</p>
+    </header>
+
+    <!-- NAVBAR BOOTSTRAP -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Anime</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Géneros</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="container mt-4">
+        <div class="row">
+
+            <!-- SECTION -->
+            <div class="col-md-8">
+                <h2>¿De qué trata este sitio web?</h2>
+                <p class="texto-grande">
+                    Este sitio web está dedicado al mundo del anime y sus diferentes géneros.
+                </p>
+
+                <h2>Tabla de Animes</h2>
+
+                <!-- TABLA BOOTSTRAP -->
+                <table class="table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th>Anime</th>
+                            <th>Género</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Naruto</td>
+                            <td>Acción</td>
+                        </tr>
+                        <tr>
+                            <td>Death Note</td>
+                            <td>Misterio</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- ASIDE -->
+            <div class="col-md-4">
+                <h3>Autor</h3>
+                <p>Hari Valderrama</p>
+                <img src="https://www.shutterstock.com/image-vector/portrait-handsome-man-confident-young-600nw-2616154679.jpg">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Contacto: hari.valderrama@email.com</p>
+    </footer>
+
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
